@@ -3,7 +3,7 @@
  * Plugin Name: Post Grid Shortcode
  * Description: A simple plugin that adds a responsive post grid with pagination and a settings page.
  * Author: Developer Nahin
- * Version: 1.0
+ * Version: 1.0.0
  * Author URI: https://nahincj.com
  * Plugin URI: https://github.com/devnahin/post-grid-shortcode
  * Text Domain: post-grid-shortcode
