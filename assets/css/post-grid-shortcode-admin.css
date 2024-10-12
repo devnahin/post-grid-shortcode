@@ -1,0 +1,131 @@
+/* Styling for the post grid */
+
+/* General container for the posts list */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Single post item */
+.post-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Thumbnail (image) styles */
+.post-thumbnail img {
+    max-width: 150px; /* Adjust this as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Post content styles */
+.post-content {
+    flex: 1;
+}
+
+/* Post title */
+.post-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-title a:hover {
+    color: #0073aa; /* Adjust hover color */
+}
+
+/* Excerpt styles */
+.post-excerpt {
+    font-size: 1em;
+    color: #666;
+}
+
+.read-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #444;
+    color: #444;
+    padding: 6px 22px;
+}
+
+.read-more-btn:hover {
+    background-color: #005177;
+    color: #fff;
+}
+
+/* Pagination styles */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination a, .pagination span {
+    color: #0073aa;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #0073aa;
+    color: white;
+    border-color: #0073aa;
+}
+
+.pagination .current {
+    background-color: #0073aa;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #0073aa;
+}
+
+.pagination a.disabled {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.pagination .prev, .pagination .next {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.pagination .prev:hover, .pagination .next:hover {
+    background-color: #005082;
+    border-color: #005082;
+}
+
+
+/* Media queries */
+@media (max-width: 768px) {
+    .pagination a, .pagination span {
+        padding: 8px 10px;
+        margin: 0 3px;
+    }
+    
+    .pagination .prev, .pagination .next {
+        padding: 8px 12px;
+    }
+}
