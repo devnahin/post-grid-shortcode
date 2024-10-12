@@ -138,13 +138,13 @@ class Post_Grid_Shortcode {
 public function enqueue_assets() {
     // Front-end: Load the stylesheet
     if (!is_admin()) {
-        wp_enqueue_style('pgs-style', PGS_PLUGIN_URL . 'assets/css/post-grid-shortcode.css', [], PGS_VERSION);
+        wp_enqueue_style('pgs-style', PGS_PLUGIN_URL . 'assets/css/post-grid-shortcode-admin.css', [], PGS_VERSION);
     }
 
     // Admin area: Load the stylesheet and script on the settings page
     if (is_admin() && isset($_GET['page']) && $_GET['page'] === 'post-grid-shortcode-settings') {
         //wp_enqueue_style('pgs-admin-style', PGS_PLUGIN_URL . 'assets/css/admin-style.css', [], PGS_VERSION);
-        wp_enqueue_script('pgs-script', PGS_PLUGIN_URL . 'assets/js/post-grid-shortcode.js', ['jquery'], PGS_VERSION, true);
+        wp_enqueue_script('pgs-script', PGS_PLUGIN_URL . 'assets/js/post-grid-shortcode-admin.js', ['jquery'], PGS_VERSION, true);
     }
 }
 
