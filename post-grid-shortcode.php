@@ -5,8 +5,10 @@
  * Author: Developer Nahin
  * Version: 1.0
  * Author URI: https://nahincj.com
- * Plugin URI: https://wordpress.org/post-grid-shortcode
+ * Plugin URI: https://github.com/devnahin/post-grid-shortcode
  * Text Domain: post-grid-shortcode
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
  */
 
