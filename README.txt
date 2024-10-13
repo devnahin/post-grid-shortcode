@@ -79,8 +79,6 @@ Initial release, no upgrade issues.
 
 This plugin is licensed under the GPLv2 or later. You are free to use, modify, and distribute it as long as you comply with the terms of the GPLv2 license.
 
----
-
 == Credits ==
 
-Post Grid Shortcode was developed by [Your Name or Company Name]. If you enjoy using this plugin, consider supporting us by donating via our [donation page](https://yourwebsite.com/donate).
+Post Grid Shortcode was developed by devnahin. If you enjoy using this plugin, consider supporting us by donating via our [donation page](https://buymeacoffee.com/devnahin).
